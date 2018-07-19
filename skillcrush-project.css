@@ -1,0 +1,238 @@
+body {
+    font-family: "Source Sans Pro", sans-sarif;
+    color: #2b2b2b; /*Keep*/
+}
+
+#about, #services, #contact {
+    height: 600px; /*Keep*/
+}
+
+.full-width {
+    width: 1200px; 
+    margin: 0 auto; /*Keep*/
+}
+.half-width {
+    width: 600px;
+    float: left; /*Keep*/
+}
+.one-third {
+    width: 400px;
+    float: left; /*Keep*/
+}
+
+header {
+        height: 800px;
+        background: url("img/hero.png");
+        background-size: cover; /*Keep*/
+}
+
+header h1 {
+    font-family: "Lora", serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding: 65px 0 65px 25px; /*Keep*/
+}
+
+nav {
+    float: right;
+    padding: 75px 25px; /*Keep*/
+}
+
+nav ul li {
+    display: inline-block; /*Keep*/
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; /*Keep*/
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: "Lora", serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px; /*Keep*/
+}
+
+header h2 span {
+    color: #2b2b2b; /*Keep*/
+}
+
+
+#about .full-width {
+    padding: 80px 0; /*Keep*/
+}
+
+#about h3 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    padding-left: 50px; /*Keep*/
+}
+
+#about p {
+    font-size: 21px;
+    color:#7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px; /*Keep*/
+}
+
+#services {
+    background-color: #f9ceb7;
+    text-align: center; /*Keep*/
+}
+
+#services .full-width {
+    padding: 115px 0; /*Keep*/
+}
+
+#services img {
+    padding-bottom: 30px; /*Keep*/
+}
+
+#services h4 {
+    font-size: 24px;
+    line-height: 32px; 
+    width: 190px; 
+    margin: 0 auto; /*Keep*/
+}
+
+#services p {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    line-height: 30px; 
+    padding: 0 50px; /*Keep*/
+}
+
+#contact {
+    background-color: #ebebeb; /*Keep*/
+}
+
+#contact .full-width {
+    padding: 110px 0; /*Keep*/
+}
+
+#contact img#contact-img {
+    margin-left: 25px; 
+    border: 12px solid white; /*Keep*/
+}
+
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px; /*Keep*/
+}
+#contact #envelope {
+    padding: 0 10px 0 115px; /*Keep*/
+}
+
+#contact h2 {
+    font-family: "Lora", serif; 
+    font-size: 36px;
+    line-height: 44px; /*Keep*/
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0; /*Keep*/
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0; /*Keep*/
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px; /*Keep*/
+}
+
+
+#contact ul {
+    list-style: none; /*Keep*/
+}
+
+#contact ul li {
+    display: inline-block; /*Keep*/
+}
+
+#contact ul img {
+    font-size: 32px; 
+    padding-right: 48px; /*Keep*/
+}
+
+
+
+/*#name {
+    color: #bbc085;
+    font-size: 30px;
+    font-family: "Lora";
+}
+.basic-content {
+    color: #898989;
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    text-decoration: none; 
+}
+
+}
+#background-introduction {
+    color: #2b2b2b;
+    font-size: 36px;
+    font-family: "Lora";
+    font-weight: bold;
+}
+.about-information {
+    color: #a1a1a1; 
+    font-size: 21px;
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    float: left;
+}
+
+#contact-me {
+    color: #c49075;
+}
+
+#main-image {
+    width: 100%;
+}
+#services {
+    clear: both; 
+    height: 600px;
+    background-color: #f9ceb7;
+    text-align: center; 
+}
+#about {
+    height: 600px;
+}
+
+
+#contact #person-at-desk {
+    margin-left: 25px;
+    border: 12px solid white; 
+}
+
+
+
+
+
+
+#contact {
+    background-color: #ebebeb;
+}
+
+
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
